@@ -13,7 +13,7 @@ Contains code related to:
   * [iuc3 alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/iuc3_alignment.sh)
   * [Colicin alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/colicin_alignment.sh)
 * Phylogeny
-  * [Kp1_phylogeny](https://github.com/marithetland/KGWP1_crossniche/blob/main/phylogeny/run_iqtree.sh)
+  * [IQtree](https://github.com/marithetland/KGWP1_crossniche/blob/main/phylogeny/run_iqtree.sh)
 * Pangenome
   * [Annotations (Bakta)](https://github.com/marithetland/KGWP1_crossniche/blob/main/pangenome/bakta_annotations.sh)
   * [Pangenome (Panaroo)](https://github.com/marithetland/KGWP1_crossniche/blob/main/pangenome/panaroo.sh)
