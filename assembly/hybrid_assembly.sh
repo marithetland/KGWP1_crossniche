@@ -2,7 +2,8 @@
 ################################################
 # KGWP1 cross-niche paper
 # Commands to:
-# - run hybrid assembly of 536 genomes
+# - run hybrid assembly of 579 genomes
+# - https://preprints.scielo.org/index.php/scielo/preprint/view/9670
 ################################################
 
 ################################################
