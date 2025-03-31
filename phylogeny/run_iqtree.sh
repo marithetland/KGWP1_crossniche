@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=IQKp1
-#SBATCH --partition=m3i,comp
-#SBATCH --account=js66
+#SBATCH --partition=xxx,xxxx
+#SBATCH --account=xx
 #SBATCH --qos=normal
 #SBATCH --time=7-00:00:00
 #SBATCH --ntasks=36
@@ -15,3 +15,5 @@ module load iqtree
 cd ./KGWP1/run_iqtree/rdkg_KGWP1_Kp1__iqtree ;
 
 iqtree -s SGH10_CP025080.1_alleles_var_cons0.95.mfasta --mem 400G --runs 1 -m TEST -B 1000 -nm 10000 -nt AUTO 
+
+#same was run for Kp3-genomes with RedDog aln against ref Kv342_CP000964
