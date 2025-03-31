@@ -1,6 +1,6 @@
 library(tidyverse)
 
-# Define the directory where KmerFinder files are stored
+# Define the directory where KmerFinder files are stored (update this line if necessary, otherwise the script should run fine without tweaking)
 kmerfinder_dir <- "kmerfinder_results"
 
 # List all KmerFinder result files
@@ -62,4 +62,4 @@ process_kmerfinder_file <- function(file_path) {
 kmerfinder_results_df <- map_dfr(kmerfinder_files, process_kmerfinder_file)
 kmerfinder_results_df
 
-write.csv(kmerfinder_results_df,"kmerfinder_results_df.csv")
+write.csv(kmerfinder_results_df,paste0(kmerfinder_dir,"/","kmerfinder_results_df.csv"))
