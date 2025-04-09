@@ -1,6 +1,7 @@
 # KGWP1_crossniche
 Code/commands used for analysis and to create figures for: 
-``` Hetland MAK, Winkler MA, Kaspersen HP, et al. A genome-wide One Health study of <i>Klebsiella pneumoniae</i> in Norway reveals overlapping populations but few recent transmission events across reservoirs. Genome Medicine, 2025. https://doi.org/10.1186/s13073-025-01466-0 ```
+
+Hetland MAK, Winkler MA, Kaspersen HP, et al. A genome-wide One Health study of <i>Klebsiella pneumoniae</i> in Norway reveals overlapping populations but few recent transmission events across reservoirs. Genome Medicine, 2025. https://doi.org/10.1186/s13073-025-01466-0
 
 Contains code related to:
 * ONT basecalling
@@ -8,11 +9,6 @@ Contains code related to:
 * Assembly
   * [Illumina assembly](https://github.com/marithetland/KGWP1_crossniche/blob/main/assembly/illumina_assembly.sh)
   * [Hybrid assembly](https://github.com/marithetland/KGWP1_crossniche/blob/main/assembly/hybrid_assembly.sh)
-* Alignments
-  * [Kp1 alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/kp1_alignment.sh)
-  * [Kp3 alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/kp3_alignment.sh)
-  * [iuc3 alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/iuc3_alignment.sh)
-  * [Colicin alignment](https://github.com/marithetland/KGWP1_crossniche/blob/main/alignment/colicin_alignment.sh)
 * Phylogeny
   * [IQtree](https://github.com/marithetland/KGWP1_crossniche/blob/main/phylogeny/run_iqtree.sh)
 * Pangenome
@@ -28,8 +24,7 @@ Contains code related to:
   * [Pyseer](https://github.com/marithetland/KGWP1_crossniche/blob/main/gwas/run_pyseer.sh)
 * Strain-sharing
   * [SL specific SNP distances](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/SL_alignments.sh)
-  * [Plot and count transmission events](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/transmission_events__plot_and_count.R)
-  * [Filter recombinations with Verticall](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/verticall.sh)
+  * [Filter recombinations with Verticall](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/run_verticall.sh)
   * [Root2Tip regression](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/roo2tip.Rmd)
   * [BactDating global](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/BactDating_global.Rmd)
   * [BactDating local](https://github.com/marithetland/KGWP1_crossniche/blob/main/transmission_analyses/BactDating_local.Rmd)
