@@ -1,5 +1,6 @@
 # KGWP1_crossniche
-Code/commands used for analysis and to create figures for the manuscript "A genome-wide One Health study of <i>Klebsiella pneumoniae</i> in Norway reveals overlapping populations but few recent transmission events across reservoirs".
+Code/commands used for analysis and to create figures for: 
+``` Hetland MAK, Winkler MA, Kaspersen HP, et al. A genome-wide One Health study of <i>Klebsiella pneumoniae</i> in Norway reveals overlapping populations but few recent transmission events across reservoirs. Genome Medicine, 2025. https://doi.org/10.1186/s13073-025-01466-0 ```
 
 Contains code related to:
 * ONT basecalling
